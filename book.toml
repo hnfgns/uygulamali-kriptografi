@@ -1,0 +1,6 @@
+[book]
+authors = ["Hanifi Gunes"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Uygulamali Kriptografi"
