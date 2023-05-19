@@ -4,3 +4,7 @@ language = "en"
 multilingual = false
 src = "src"
 title = "Uygulamali Kriptografi"
+
+
+[output.html]
+mathjax-support = true
