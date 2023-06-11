@@ -1,10 +1,6 @@
-# Asimetrik Şifreleme
+# Anahtar Dağıtma
 
-Aradan uzun bir zaman geçti. Kral Ferhat, Danışman'ın önerilerine uyarak Prenses Şirin ile simetrik kriptografi kullanarak iletişim kurmaya devam etti. Ancak kralın zihninde birkaç soru işareti belirdi. Uzun süredir aynı şifreleme anahtarını kullanıyorlardı, acaba birisi şifreyi ele geçirmiş olabilir miydi? Ortak anahtarın yaratılmasındaki zorluktan da yakınıyordu. Fiziksel olarak buluşmak yahut aracı kullanmak zorundaydılar. Can ve anahtar güvenlikleri tehlike altındaydı.
-
-Bir de, tüm müttefikleriyle eş zamanlı iletişim kurmak istediklerinde, her biriyle ortak anahtar oluşturmak oldukça zahmetli olacaktı. Kral, bu sorunları Danışmanına nasıl çözebileceğini sordu.
-
-Danışman, Kral Ferhat'ın sorularını dikkatle dinledi ve ardından tekrar kralın yanından ayrıldı. Aradan geçen zamanın ardından heyecanla geri döndü ve şöyle dedi:
+Aradan geçen zamanın ardından heyecanla geri döndü ve şöyle dedi:
 
 "Ey Kral Ferhat, düşündüm, taşındım, araştırdım ve bir çözüm buldum! Herkesin kendi anahtarına sahip olması daha iyi bir fikir olabilir. Evet, herkesin kendi anahtarı olacak. Ama nasıl olacak, diye düşünebilirsiniz."
 
@@ -32,12 +28,18 @@ Danışman açıkladı: "Kral Ferhat, bu 'A' ve 'B' sonuçları, büyülü sayı
 
 Kral Ferhat, heyecanla dinliyordu.
 
-Danışman, devam etti: "Şimdi her iki taraf da açık anahtlarını birbirine göndersin ve birbirlerinden aldıkları bu anahartarı kendi gizli sayılarına yükseltiyor. Kral Ferhat, Prenses Şirin'den aldığı 'B' sonucunu kendi gizli sayısı olan 'a' üzerine yükseltir ve 'Kralın Gizli Anahtarı' olarak adlandırdığımız sonucu elde eder. Prenses Şirin de Kral Ferhat'tan aldığı 'A' sonucunu kendi gizli sayısı olan 'b' üzerine yükselterek 'Prensesin Gizli Anahtarı' adını verdiğimiz sonucu elde eder."
+Danışman, devam etti: "Şimdi her iki taraf da açık anahtarlarını birbirine göndersin ve birbirlerinden aldıkları bu anahartarı kendi gizli sayılarına yükseltiyor. Kral Ferhat, Prenses Şirin'den aldığı 'B' sonucunu kendi gizli sayısı olan 'a' üzerine yükseltir ve 'Kralın Gizli Anahtarı' olarak adlandırdığımız sonucu elde eder. Prenses Şirin de Kral Ferhat'tan aldığı 'A' sonucunu kendi gizli sayısı olan 'b' üzerine yükselterek 'Prensesin Gizli Anahtarı' adını verdiğimiz sonucu elde eder."
 
 Kral Ferhat düşündü ve anladı: "Yani her birimizin açık anahtarımızdan ortak anahtarımızı oluşturduk. Ancak, birbirimizin gizli anahtarlarını bilmiyoruz."
 
-Danışman gülümsedi ve dedi: "Doğru, Kral Ferhat. İşte bu büyülü yöntem sayesinde her birimiz ortak anahtarlarımızı oluşturduk, ancak birbirimizin gizli anahtarlarını bilmiyoruz. Şimdi bu ortak anahtarları kullanarak iletişimde şifreleme ve şifre çözme yapabiliriz. Her birimiz mesajlarımızı bu ortak anahtarlarla şifreleyebiliriz."
+Danışman gülümsedi ve dedi: "Doğru, Kral Ferhat. İşte bu büyülü yöntem sayesinde her birimiz ortak anahtarlarımızı oluşturduk, ancak birbirimizin gizli anahtarlarını bilmiyoruz. Şimdi bu ortak anahtarları kullanarak iletişimde şifreleme ve şifre çözme yapabiliriz. Her birimiz mesajlarımızı simetrik şifreleme kullanarak bu ortak anahtarla şifreleyebiliriz."
 
-Kral Ferhat, büyülü yöntemi anlamış ve mutlu bir şekilde söyledi: "Danışman, bu gerçekten büyüleyici bir matematiksel dans. Şimdi Prenses Şirin'le güvenli bir şekilde iletişim kurabiliriz."
+Kral Ferhat, büyülü yöntemi anladı ve mutlu bir şekilde şunları söyledi: "Danışman, bu gerçekten büyüleyici bir matematiksel dans. Prenses Şirin ile yazışmalarımızda ortak anahtar yaratmak çok daha kolay."
 
-Danışman da gülümseyerek Kral Ferhat'ı onayladı ve Diffie-Hellman Anahtar Değişimi'nin büyülü gücünü göstermiş oldu.
+Danışman da gülümseyerek Kral Ferhat'ı onayladı ve Diffie-Hellman Anahtar Değişimi'nin büyülü gücünü göstermiş olmanın hazzını yaşıyordu.
+
+Kralın yeniden düşüncelere daldı. Sakallarını okşayarak derin bir iç çekti. "Ah, bu yöntem ortak anahtar yaratmayı kolaylaştırıyor, ancak şifrelemenin güvenliğini artırmıyor! Ortak anahtar hala çalınabilir!" diye düşündü. Merakla danışmanına dönerek, "Ey bilge danışmanım, bu durumda ne yapabiliriz? Bana akıl ver, ne önerirsin?" diye sordu. 
+
+Bilge danışman tebessüm etti ve krala şunları söyledi: "Kralım, ben daha fazla düşünmek ve araştırmak için vakit istiyorum. Size daha iyi bir çözüm sunmak için geri döneceğim. Şimdilik sizi sabırla beklemeye davet ediyorum."
+
+Kral, danışmanının bilgeliğine güvenerek ona zaman tanıdı. Danışman düşünceli bir şekilde kralın odasından ayrıldı, yeni bir plan için kafa yormak üzere...
